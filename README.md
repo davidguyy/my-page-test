@@ -1,1 +1,1 @@
-[my-page-test](https://davidguyy.github.io/my-page-test/)
+https://davidguyy.github.io/random-site-redirect/
