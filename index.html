@@ -7,17 +7,14 @@
         "https://www.wikipedia.org",
         "https://www.github.com"
     ];
-
+    
     function redirectToRandomSite() {
         var randomIndex = Math.floor(Math.random() * sites.length);
         var randomSite = sites[randomIndex];
-        window.location.href = randomSite; // Or window.location.replace(randomSite);
+        window.location.href = randomSite; 
     }
-  
+    
     redirectToRandomSite();
-
-    // Or, for a button:
-    // document.getElementById('myButton').addEventListener('click', redirectToRandomSite);
 </script>
 </body>
 </html>
